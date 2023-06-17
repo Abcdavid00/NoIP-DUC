@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  noip-duc:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - NOIP_USERNAME=  # your noip email
+      - NOIP_PASSWORD=  # your noip password
+      - NOIP_HOSTNAMES= # your noip hostnames, comma separated
+    restart: unless-stopped
