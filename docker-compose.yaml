@@ -5,8 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+    platform: linux/amd64
     environment:
       - NOIP_USERNAME=  # your noip email
       - NOIP_PASSWORD=  # your noip password
       - NOIP_HOSTNAMES= # your noip hostnames, comma separated
-    restart: unless-stopped
+    restart: always
