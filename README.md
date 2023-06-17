@@ -1,7 +1,5 @@
 # NoIP-DUC
 
-# GitHub Repository Readme
-
 ## Introduction
 This repository contains the necessary instructions to set up a Dockerized application for interacting with a No-IP service. By following the steps outlined in this readme, you will be able to quickly deploy and run the application on your local machine.
 
